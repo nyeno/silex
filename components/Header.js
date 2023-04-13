@@ -1,5 +1,6 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import styles from './../styles/Header.module.css'
+
 
 export default function Header() {
   const [isNavOpen, setOpenNav] = useState(false)
@@ -11,6 +12,9 @@ export default function Header() {
   const showNav = () => {
     setOpenNav(true)
   }
+
+
+  
   return (
     <div className={styles.header}>
       <img src="/logo.png" alt='Silex logo'/>
