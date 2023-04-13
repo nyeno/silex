@@ -1,0 +1,15 @@
+.footer{
+    width: 100%;
+    padding: 1.5rem auto;
+    margin-top: 1rem;
+    background-color: #10131e;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+.footer a{
+    margin-right: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid #fff;
+}
+ .footer a:last-child{
+    border-right: none;
+ }

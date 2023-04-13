@@ -1,0 +1,42 @@
+.rock_solid{
+  margin: 5rem auto
+}
+
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title span:first-child {
+  margin-right: 10px;
+}
+
+.subtitle {
+  animation: slide-in 1s forwards;
+  opacity: 0;
+}
+
+.bodyText{
+  padding: 1rem 2rem;
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@media screen and (min-width: 992px) {
+   .bodyText{
+      padding: 1rem 2rem;
+      width: 70%;
+      margin: 0 auto;
+}
+}

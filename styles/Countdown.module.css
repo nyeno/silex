@@ -1,0 +1,24 @@
+.countdown{
+    width: 60%;
+    min-width: 500px;
+    margin: 4rem auto;
+    
+}
+.countdown p{
+    font-size: 4rem;
+    font-family: inherit;
+    font-weight: 900;
+}
+
+.countdown p:first-child{
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
+    margin: 1rem;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 992px) {
+    .countdown{
+        width: 45%;
+    }
+}
