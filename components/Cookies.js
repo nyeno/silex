@@ -4,10 +4,14 @@ import styles from './../styles/Cookie.module.css'
 export default function Cookies() {
 const [showCookieConsent, setShowCookieConsent] = useState(true)
 
+  
 const acceptCookies = () => {
-    document.cookie = "cookieConsent=true"
-        setShowCookieConsent(false)
-    }
+  const expirationTime = new Date();
+  expirationTime.setTime(expirationTime.getTime() + 4 * 60 * 60 * 1000); // cookie expires in 4 hours in milliseconds
+  const expires = "expires=" + expirationTime.toUTCString();
+  document.cookie = "cookieConsent=true" + ";" + expires + ";path=/";
+  setShowCookieConsent(false)
+}
     useEffect(() => {
         if (document.cookie.indexOf('cookieConsent=true') > -1) {
             setShowCookieConsent(false)

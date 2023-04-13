@@ -13,12 +13,7 @@ export default function Home() {
         <title>SILEX. rock. solid</title>
         <meta name="description" content="Silex frontend test by Nyenooke" />
         <link rel="icon" href="/favicon.ico" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
-          rel="stylesheet"
-        />
+        
       </Head>
       <Header />
       <main className={styles.main}>

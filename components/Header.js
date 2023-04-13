@@ -13,25 +13,25 @@ export default function Header() {
   }
   return (
     <div className={styles.header}>
-      <img src="/logo.png" />
+      <img src="/logo.png" alt='Silex logo'/>
       <nav className={styles.largeNav}>
-        <a href="https://www.silex-partners.com/en/technology">Technology</a>
-        <a href="https://www.silex-partners.com/en/solutions">Solutions</a>
-        <a href="https://landing.silex-partners.com/carbon-score-en/">
+        <a href="https://www.silex-partners.com/en/technology" target='_blank'>Technology</a>
+        <a href="https://www.silex-partners.com/en/solutions" target='_blank'>Solutions</a>
+        <a href="https://landing.silex-partners.com/carbon-score-en/" target='_blank'>
           Carbon Impact
         </a>
-        <a href="https://landing.silex-partners.com/carbon-score-en/">
+        <a href="https://landing.silex-partners.com/carbon-score-en/" target='_blank'>
           Publications
         </a>
       </nav>
       {isNavOpen && (
         <nav className={styles.phoneNav}>
-          <a href="https://www.silex-partners.com/en/technology">Technology</a>
-          <a href="https://www.silex-partners.com/en/solutions">Solutions</a>
-          <a href="https://landing.silex-partners.com/carbon-score-en/">
+          <a href="https://www.silex-partners.com/en/technology" target='_blank'>Technology</a>
+          <a href="https://www.silex-partners.com/en/solutions" target='_blank'>Solutions</a>
+          <a href="https://landing.silex-partners.com/carbon-score-en/" target='_blank'>
             Carbon Impact
           </a>
-          <a href="https://landing.silex-partners.com/carbon-score-en/">
+          <a href="https://landing.silex-partners.com/carbon-score-en/" target='_blank'>
             Publications
           </a>
         </nav>

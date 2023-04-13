@@ -6,11 +6,11 @@ export default function Main() {
   return (
     <div>
       <div className={styles.rock_solid}>
-        <img src="/rock_solid.png" />
+        <img src="/rock_solid.png" alt='Rock Solid'/>
       </div>
 
       <h1 className={styles.title}>
-        <span>SILEX:</span>
+        <span>SILEX</span>
         <span className={styles.subtitle}>gives rise to SPARK</span>
       </h1>
 
