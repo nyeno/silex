@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-//import { acceptCookies, showConsentPopUp } from '../utils/cookieConsent'
+import styles from './../styles/Cookie.module.css'
 
 export default function Cookies() {
 const [showCookieConsent, setShowCookieConsent] = useState(true)
@@ -15,15 +15,15 @@ const acceptCookies = () => {
     }, [])
  console.log(showCookieConsent)
   return (
-    <div className={styles.cookies}>
+    <div>
       {showCookieConsent && (
-        <div>
+        <div className={styles.cookies}>
           <p>
             In order to offer you the best possible service, this site uses
             cookies. By agreeing to continue on this site, you declare that you
             accept their use.
+            <span onClick={acceptCookies}> I agree</span>
           </p>
-          <button onClick={acceptCookies}> I agree</button>
         </div>
       )}
     </div>

@@ -2,7 +2,7 @@
 const today = new Date();
 
 // Set the target date to April 14th at midnight
-const targetDate = new Date("2023-04-14T00:00:00");
+const targetDate = new Date("2023-04-14T12:00:00");
 
 // Calculate the time difference in seconds
 const timeDiffInSeconds = Math.floor((targetDate - today) / 1000);
