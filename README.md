@@ -1,8 +1,7 @@
 
 # Silex Frontend Text
 
-As part of the hiring process for Silex, I completed a frontend test using Next.js. The test involved building  "Landing Page" from a marketing campaign where the user will be able to see a
-countdown for a release day.
+As part of the hiring process for Silex, I completed a frontend test using Next.js. The test involved building a landing page from a marketing campaign where the user will be able to see a countdown for a release day which is April 14th 2023
 
 
 ## Run Locally
@@ -39,6 +38,12 @@ View it in the browser by going to
 
 ## Demo
 View the site live [here](https://silex-nyenooke.netlify.app/).
+
+
+
+https://user-images.githubusercontent.com/25879426/231963044-69133570-fab4-4ae7-a3db-d909a85a9e46.mp4
+
+
 
 
 ## 🔗 Links
