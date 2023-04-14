@@ -2,9 +2,9 @@ html,
 body {
   padding: 0;
   margin: 0;
- font-family: 'Open Sans', sans-serif;
-  width: 100%;
-  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #10131e;
+  background-color: white;
 }
  button{
   border: none;
@@ -13,7 +13,7 @@ body {
   background-color: transparent;
  }
 a {
-  color: inherit;
+  color: #10131e;
   text-decoration: none;
 }
 
@@ -31,4 +31,8 @@ a {
     color: white;
     background: #10131e;
   }
+  a {
+  color: white;
+  text-decoration: none;
+}
 }

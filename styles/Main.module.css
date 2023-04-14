@@ -1,5 +1,5 @@
 .rock_solid{
-  margin: 5rem auto
+  margin: 1rem auto
 }
 
 
@@ -40,5 +40,16 @@
       padding: 1rem 2rem;
       width: 70%;
       margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 590px){
+  .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.85rem;
+  font-weight: 800;
 }
 }
