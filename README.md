@@ -41,6 +41,12 @@ View it in the browser by going to
 View the site live [here](https://silex-nyenooke.netlify.app/).
 
 
+
+https://user-images.githubusercontent.com/25879426/231963044-69133570-fab4-4ae7-a3db-d909a85a9e46.mp4
+
+
+
+
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://nyeno.github.io/Portfolio/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nyenooke-eno/)
