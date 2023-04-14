@@ -39,6 +39,9 @@
     .header .largeNav{
         display: block;
     }
+    .header .phoneNav{
+        display: none;
+    }
     .header .largeNav > *{
         margin-right: 1rem;
         text-transform: uppercase;
