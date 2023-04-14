@@ -13,13 +13,13 @@ export default function Home() {
         <title>SILEX. rock. solid</title>
         <meta name="description" content="Silex frontend test by Nyenooke" />
         <link rel="icon" href="/favicon.ico" />
-        
       </Head>
-      <Header />
+
       <main className={styles.main}>
+        <Header />
         <Main />
+        <Footer />
       </main>
-      <Footer />
       <Cookies />
     </div>
   );

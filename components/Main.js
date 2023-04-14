@@ -4,7 +4,7 @@ import styles from './../styles/Main.module.css';
 
 export default function Main() {
   return (
-    <div>
+    <div className={styles.main}>
       <div className={styles.rock_solid}>
         <img src="/rock_solid.png" alt='Rock Solid'/>
       </div>
