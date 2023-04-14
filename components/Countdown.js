@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { CircularProgressbarWithChildren } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import { percentage } from "../utils/percent";
 import styles from '../styles/Countdown.module.css'
 import { addZero } from "../utils/addZero";
 
@@ -32,7 +31,7 @@ const Countdown = () => {
   const minutes = addZero(Math.floor((totalSeconds % 3600) / 60));
   const seconds = addZero(Math.floor(totalSeconds % 60));
 
-
+  const percentage = Math.floor((seconds / 60) * 100);
 
   return (
     <div className={styles.countdown}>
