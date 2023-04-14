@@ -30,8 +30,13 @@ const Countdown = () => {
   const hours = addZero(Math.floor((totalSeconds % (3600 * 24)) / 3600));
   const minutes = addZero(Math.floor((totalSeconds % 3600) / 60));
   const seconds = addZero(Math.floor(totalSeconds % 60));
-
-  const percentage = Math.floor((seconds / 60) * 100);
+  let percentage = 0
+  if (remainingTime > 0) {
+     percentage = Math.floor((seconds / 60) * 100);
+  }
+  else {
+    percentage = 100
+ }
 
   return (
     <div className={styles.countdown}>
